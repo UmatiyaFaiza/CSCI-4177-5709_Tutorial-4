@@ -10,7 +10,7 @@ function ProfileListingPage() {
 
     const navigateToProfileDetailPage = (id) => {
         console.log(id);
-        navigate("/profileDetailpage", { state: id });
+        navigate("/profileDetailPage", { state: id });
 
     }
     const handleSearchTermChange = (event) => {
